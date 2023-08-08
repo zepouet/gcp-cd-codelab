@@ -1,4 +1,4 @@
-FROM alpine
+FROM alpine:3.18.3
 
 COPY gopath/bin/gcp-cd-codelab /go/bin/gcp-cd-codelab
 
